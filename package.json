@@ -1,11 +1,12 @@
 {
-  "homepage": "https://deathzombie.github.io/Tic-Tac-Toe",
+  "homepage": "https://priyanshsaxena24.github.io/Tic-Tac-Toe",
   "name": "react-essentials-deep-dive-adv",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
